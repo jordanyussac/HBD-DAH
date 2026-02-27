@@ -231,7 +231,7 @@ body {
 
 .six .hat {
   position: absolute;
-  top: -33%;          /* posisi di atas kepala */
+  top: -35%;          /* posisi di atas kepala */
   left: 49%;          /* selalu tengah */
   transform: translateX(-50%);
   width: 50px;
@@ -250,14 +250,22 @@ body {
   #replay {
     padding: 10px
   }
-    one,
-  two,
-  three,
-  four,
-  five, six, nine
+  
+  .one,
+  .two,
+  .three,
+  .four,
+  .five .idea-1,
+  .five .idea-2,
+  .five .idea-3,
+  .five .idea-4,
+  .five .idea-5,
+  .five .idea-6,
+  .six, .nine
   {
-    padding:20px
+    padding: 15px
   }
+
   .text-box .fake-btn {
     /* bottom: -38px; */
     right: 5px;
@@ -273,6 +281,9 @@ body {
 
   .six .hat {
     /* top: -20px; */
+    top: -30%;
+  left: 48%;          /* selalu tengah */
+
     width: 50px;
   }
 

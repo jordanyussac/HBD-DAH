@@ -137,7 +137,7 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .eight svg {
@@ -225,40 +225,39 @@ body {
   z-index: 3;
 }
 
-/* Media Queries */
-@media screen and (max-height: 1000px) {
-  .six .hat {
-    left: 40%;
-  }
+.six {
+  position: relative;
 }
 
-@media screen and (max-height: 800px) {
-  .six .hat {
-    left: 37%;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .six .hat {
-    left: 32%;
-  }
-}
-
-@media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
-    left: 32%;
-  }
+.six .hat {
+  position: absolute;
+  top: -34%;          /* posisi di atas kepala */
+  left: 48%;          /* selalu tengah */
+  transform: translateX(-50%);
+  width: 80px;
+  z-index: 2;
 }
 
 @media screen and (max-width: 500px) {
   .container {
-    width: 90%;
+    width: 100%;
   }
 
   .four .text-box {
     width: 90%;
   }
-
+  
+  #replay {
+    padding: 10px
+  }
+  one,
+  two,
+  three,
+  four,
+  five, six, nine
+  {
+    padding:20px
+  }
   .text-box .fake-btn {
     /* bottom: -38px; */
     right: 5px;

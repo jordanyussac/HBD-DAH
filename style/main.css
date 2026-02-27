@@ -109,7 +109,7 @@ body {
 }
 
 .six .hat {
-  left: 41.5%;
+  /* left: 41.5%; */
   position: absolute;
   /* transform: scale(0.1); */
   top: -35%;
@@ -121,7 +121,7 @@ body {
   position: absolute;
 }
 
-/* .baloons img:nth-child(even) {
+.baloons img:nth-child(even) {
   left: -10%;
 }
 
@@ -131,7 +131,7 @@ body {
 
 .baloons img:nth-child(3n + 0) {
   left: 30%;
-} */
+}
 
 .seven, .eight {
   height: 100vh;

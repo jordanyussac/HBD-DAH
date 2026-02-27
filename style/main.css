@@ -231,10 +231,10 @@ body {
 
 .six .hat {
   position: absolute;
-  top: -34%;          /* posisi di atas kepala */
-  left: 48%;          /* selalu tengah */
+  top: -33%;          /* posisi di atas kepala */
+  left: 49%;          /* selalu tengah */
   transform: translateX(-50%);
-  width: 80px;
+  width: 50px;
   z-index: 2;
 }
 
@@ -250,7 +250,7 @@ body {
   #replay {
     padding: 10px
   }
-  one,
+    one,
   two,
   three,
   four,
